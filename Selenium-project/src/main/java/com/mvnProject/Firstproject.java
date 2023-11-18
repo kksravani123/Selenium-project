@@ -29,6 +29,7 @@ co.setBinary("C:\\Users\\ADMIN\\Downloads\\chrome-win64\\chrome-win64\\chrome.ex
 				System.out.println( "The element isdisplayed::"+driver.findElement(By.xpath("//input[@placeholder='Username']")).isDisplayed());
 				driver.findElement(By.name("password")).sendKeys("admin123");
 				driver.findElement(By.xpath("//button[contains(text(),'Sign ')]")).click();
+		driver.close();
 				
 				
 				
